@@ -27,6 +27,18 @@ apps.get("/", (req, res) => {
         res.content("Hello world");
 
     });
+const connect =http(apps, {"host": default_host,
+        "port": default_port});
+
+    connect.then(() => {
+
+        console.log("running");
+
+    }).catch((err) => {
+
+        console.log(err);
+
+    });
 ```
 
 [npm-url]: https://www.npmjs.com/package/fornetserve
