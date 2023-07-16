@@ -1,4 +1,4 @@
-# GETKit
+# FornetServe
 [![NPM version][npm-image]][npm-url] 
 
 [Site](https://fornetserve.codehyouka.xyz/) |
@@ -29,8 +29,6 @@ apps.get("/", (req, res) => {
     });
 ```
 
-
-```
 [npm-url]: https://www.npmjs.com/package/fornetserve
 [npm-image]: https://img.shields.io/badge/fornetserve-0.0.1-brightgreen
 
